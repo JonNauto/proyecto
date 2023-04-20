@@ -271,7 +271,6 @@ p {
 
 /* Hero Image*/
 .hero-image {
-    width: 100%;
     background-image: var(--hero-image);
     background-repeat: no-repeat;
     background-size: cover;

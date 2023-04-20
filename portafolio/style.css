@@ -24,6 +24,7 @@
 /* Reseteo */
 /*Reseteo modelo de caja
   Se utiliza rem = pixeles*/
+
 html {
     box-sizing: border-box;
     font-family: var(--font);
@@ -41,6 +42,12 @@ body {
     margin: 0;
     overflow-x: hidden;
     color: var(--text-color);
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -725,7 +732,7 @@ progress::-moz-progress-bar {
 /*desktop*/
 @media screen and (min-width: 1024px) {
 
-    .footer{
+    .footer {
         margin-bottom: 0;
     }
 
